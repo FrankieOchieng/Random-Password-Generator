@@ -5,12 +5,13 @@ class PasswordGenerate{
 
   //Creating a static method for Generating Password.
   static String generatepassword(){
+
     //Initialized the list.
     List<String> chars = 'QWERTYUIOPASDFGHJKLZXCVBNM'.split('');
     
     List<int> numbers = [1,2,3,4,5,6,7,8,9];
 
-    List<String> specialChars = ["@", "#", "!", "&", "*", "%", "^"];
+    List<String> specialChars = ["@", "#", "!", "&", "*", "%", "^", "|"];
   
     List <String> password = [];
 
